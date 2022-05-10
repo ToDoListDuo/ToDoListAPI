@@ -1,6 +1,6 @@
 using System;
 
-namespace ToDoListAPI
+namespace TodoListAPI
 {
     public class WeatherForecast
     {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\paulo\\source\\repos\\ToDoListAPI\\ToDoListAPI.csproj": {}
+    "C:\\Projetos\\TodoListAPI\\TodoListAPI\\TodoListAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\paulo\\source\\repos\\ToDoListAPI\\ToDoListAPI.csproj": {
+    "C:\\Projetos\\TodoListAPI\\TodoListAPI\\TodoListAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paulo\\source\\repos\\ToDoListAPI\\ToDoListAPI.csproj",
-        "projectName": "ToDoListAPI",
-        "projectPath": "C:\\Users\\paulo\\source\\repos\\ToDoListAPI\\ToDoListAPI.csproj",
+        "projectUniqueName": "C:\\Projetos\\TodoListAPI\\TodoListAPI\\TodoListAPI.csproj",
+        "projectName": "TodoListAPI",
+        "projectPath": "C:\\Projetos\\TodoListAPI\\TodoListAPI\\TodoListAPI.csproj",
         "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paulo\\source\\repos\\ToDoListAPI\\obj\\",
+        "outputPath": "C:\\Projetos\\TodoListAPI\\TodoListAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
