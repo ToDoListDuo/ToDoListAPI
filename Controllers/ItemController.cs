@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using TodoListAPI.Model;
 using TodoListAPI.Model.Context;
+using Microsoft.AspNetCore.Cors;
 
 namespace TodoListAPI.Controllers
 {
@@ -18,13 +19,14 @@ namespace TodoListAPI.Controllers
         {
             _context = context; 
         }
-
+        [HttpGet]
         [Route("findall")]
         public List<Todolist> Get()
         {
             return _context.Todolist.ToList();
         }
 
+        [HttpPost]
         [Route("create")]
         public Todolist Create(Todolist list)
         {
@@ -40,6 +42,7 @@ namespace TodoListAPI.Controllers
             }
         }
 
+        [HttpPut]
         [Route("update")]
         public Todolist Update(Todolist list)
         {
@@ -65,6 +68,7 @@ namespace TodoListAPI.Controllers
             return result;
         }
 
+        [HttpDelete]
         [Route("delete/{id:int}")]
         public void Delete(int id)
         {
