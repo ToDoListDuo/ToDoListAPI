@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tDbxpRrKXSlC7QHuObbG0yR1NBvP55sqCTmKA0CmbwaQefyiQ8bAXxZ5/J/kWzzaBXVviz58wdt7y564IjHVoA==",
+  "dgSpecHash": "J00/sCCB2u3v/9m8CYORQbp42lK/e119oJ7Zbd4R+3uM8pDieomA554fBn0e8EZk40dnjF/h09mvN+chW27vMQ==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\TodoListAPI\\TodoListAPI\\TodoListAPI.csproj",
+  "projectFilePath": "C:\\Projetos\\ToDoListAPIV2\\ToDoListAPI\\TodoListAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\paulo\\.nuget\\packages\\azure.core\\1.22.0\\azure.core.1.22.0.nupkg.sha512",
     "C:\\Users\\paulo\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
