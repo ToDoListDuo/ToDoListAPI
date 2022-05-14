@@ -84,7 +84,7 @@ namespace TodoListAPI.Controllers
                 catch (Exception e)
                 {
 
-                    throw new Exception("Erro ao deletar livro ", e);
+                    throw new Exception("Erro ao deletar tarefa ", e);
                 }
 
             }

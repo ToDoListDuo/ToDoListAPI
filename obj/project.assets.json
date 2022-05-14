@@ -2962,11 +2962,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\TodoListAPI\\TodoListAPI\\TodoListAPI.csproj",
+      "projectUniqueName": "C:\\Projetos\\ToDoListAPIV2\\ToDoListAPI\\TodoListAPI.csproj",
       "projectName": "TodoListAPI",
-      "projectPath": "C:\\Projetos\\TodoListAPI\\TodoListAPI\\TodoListAPI.csproj",
+      "projectPath": "C:\\Projetos\\ToDoListAPIV2\\ToDoListAPI\\TodoListAPI.csproj",
       "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\TodoListAPI\\TodoListAPI\\obj\\",
+      "outputPath": "C:\\Projetos\\ToDoListAPIV2\\ToDoListAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
